@@ -1,0 +1,36 @@
+We use tailwind css to make the UI frequently & responsive.
+We can use utility classes.
+Tailwind css is the nodejs package
+
+HOW TO SETUP TAILWIND CSS?
+
+Step:01 Run the following commands
+
+npm install -D tailwindcss
+npx tailwindcss init
+
+Step:02 Update tailwind.conf.js file to include this line:
+
+content: ["*.html"],
+
+Step:03 create src/input.css to include:
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Step:04 Include the src/output.css file to your html 
+
+Step:05 Run the following command:
+
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+
+
+Responsiveness in tailwind Css:
+a) Breakpoints in tailwind:
+
+i)    'sm' -> 640px    @media (min-width" 640px) {...}
+ii)   'md' -> 768px    @media (min-width" 768px) {...}
+iii)  'lg' -> 1024px   @media (min-width" 1024px) {...}
+iv)   'xl' -> 1280px   @media (min-width" 1280px) {...}
+v)    '2xl' -> 1536px  @media (min-width" 1536px) {...}

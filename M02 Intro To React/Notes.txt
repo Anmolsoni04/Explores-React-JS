@@ -1,0 +1,7 @@
+Why React?
+Ans-> 
+1) React makes our work easy and efficiently. The amount of time we put to do the task using raw JS, using REACT we can do more efficiently. That's why we have to use ReactJS.
+
+2) We can make the variables instead of doing like: innerHTML, queryselector, etc. using states in react.
+
+3) we can divide our code in modular components in react.

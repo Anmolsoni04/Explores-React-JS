@@ -1,0 +1,9 @@
+1) HOOKS are some functions that helps us to access the features of react that are in the functional components.
+
+2) Built-in Hooks:
+
+- we can either use the built-in hooks or we can make our own hooks.
+
+3) State Hooks:
+
+- useState and useEffect hooks are most important

@@ -1,0 +1,14 @@
+nav ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+ul{
+    gap: 30px;
+    padding: 21px;
+}
+nav{
+    background-color: rgb(130, 94, 163);
+    color: whitesmoke;
+}

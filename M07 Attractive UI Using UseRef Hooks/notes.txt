@@ -1,0 +1,9 @@
+import {useRef} from 'react';
+
+function Mycomponent() {
+    const initialRef = useRef(0)
+    const inputRef = useRef(null);
+}
+
+- we can use multiple ref's.
+- we have to call useRef at the top level of the component

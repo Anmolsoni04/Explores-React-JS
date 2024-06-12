@@ -1,0 +1,9 @@
+.card{
+  border: 2px solid black;
+   max-width: 70vw;
+}
+.container{
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
